@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "name": "test-pnpm",
+  "version": "1.0.0",
+  "dependencies": {
+    "test-dep": "file:./test-dep"
+  }
+}

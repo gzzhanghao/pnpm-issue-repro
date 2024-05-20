@@ -1,0 +1,24 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      test-dep:
+        specifier: file:./test-dep
+        version: file:test-dep
+
+  packages/test: {}
+
+packages:
+
+  test-dep@file:test-dep:
+    resolution: {directory: test-dep, type: directory}
+
+snapshots:
+
+  test-dep@file:test-dep: {}

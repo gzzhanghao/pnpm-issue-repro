@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "name": "test-dep",
+  "version": "1.0.0",
+  "scripts": {
+    "install": "echo $npm_config_prefix && npx which npm"
+  }
+}
